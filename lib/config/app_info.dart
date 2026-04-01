@@ -8,7 +8,7 @@ import 'package:intl/intl.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 
 class AppInfo {
-  static String appName = 'Leitor de Código de Barras';
+  static String appName = 'Leitor de Etiquetas de Patrimônio';
   static String version = '0.0.0';
   static String buildNumber = '0';
   static String releaseDate = '';
@@ -23,7 +23,7 @@ class AppInfo {
       final packageInfo = await PackageInfo.fromPlatform();
       
       // Atualizar as informações com os dados oficiais
-      appName = packageInfo.appName.isEmpty ? 'Leitor de Código de Barras' : packageInfo.appName;
+      appName = packageInfo.appName.isEmpty ? 'Leitor de Etiquetas de Patrimônio' : packageInfo.appName;
       version = packageInfo.version;
       buildNumber = packageInfo.buildNumber;
       

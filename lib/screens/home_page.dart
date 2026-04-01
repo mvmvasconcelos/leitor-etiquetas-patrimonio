@@ -136,7 +136,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
     
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Leitor de Código de Barras'),
+        title: const Text('Leitor de Etiquetas de Patrimônio'),
         backgroundColor: colorScheme.primaryContainer,
         actions: provider.isSelectionMode && provider.scans.isNotEmpty
             ? [

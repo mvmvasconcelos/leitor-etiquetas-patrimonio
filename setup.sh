@@ -5,7 +5,7 @@
 # Criar novo projeto Flutter se não existir
 
   echo "Criando novo projeto Flutter..."
-  flutter create --org br.edu.ifsul.venancioaires --project-name barcode_scanner .
+  flutter create --org br.edu.ifsul.venancioaires --project-name etiquetas_patrimonio .
   
 
 # Instalar dependências necessárias no pubspec.yaml

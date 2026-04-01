@@ -6,7 +6,7 @@
     <!-- Permissões de áudio para feedback sonoro -->
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
     <application
-        android:label="Leitor de Código de Barras"
+        android:label="Leitor de Etiquetas de Patrimônio"
         android:name="${applicationName}"
         android:icon="@mipmap/launcher_icon">
         <activity

@@ -1,4 +1,4 @@
-name: barcode_scanner
+name: etiquetas_patrimonio
 description: Leitor de código de barras.
 publish_to: 'none'
 

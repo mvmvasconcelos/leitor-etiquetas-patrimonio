@@ -277,7 +277,7 @@ class UpdateService {
       
       // Se não conseguir o diretório de downloads, usa o temporário
       final Directory saveDir = storageDir ?? await getTemporaryDirectory();
-      final String fileName = "barcode_scanner_update.apk"; // Nome de arquivo fixo para evitar problemas de caracteres especiais
+      final String fileName = "etiquetas_patrimonio_update.apk"; // Nome de arquivo fixo para evitar problemas de caracteres especiais
       final String savePath = '${saveDir.path}/$fileName';
       
       // Remover arquivo antigo se existir

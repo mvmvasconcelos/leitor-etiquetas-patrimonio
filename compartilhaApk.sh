@@ -87,7 +87,7 @@ cat > public/index.html << EOF
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Download do APK - Leitor de Código de Barras IFSUL</title>
+    <title>Download do APK - Leitor de Etiquetas de Patrimônio IFSUL</title>
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <style>
         body {
@@ -133,7 +133,7 @@ cat > public/index.html << EOF
     </style>
 </head>
 <body>
-    <h1>Leitor de Código de Barras IFSUL</h1>
+    <h1>Leitor de Etiquetas de Patrimônio IFSUL</h1>
     <p>Aplicativo para leitura de códigos de barras em etiquetas de patrimônio</p>
     
     <div class="version-info">
